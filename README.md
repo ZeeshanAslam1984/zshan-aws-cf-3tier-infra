@@ -2,7 +2,7 @@ Creating a highly professional 3-tier architecture on AWS using CloudFormation i
 
 ✅ Architecture Overview
 Layers & Key Components:
-Networking Layer
+###Networking Layer
 
 VPC, Subnets (Public, Private-App, Private-DB), Route Tables
 
@@ -12,7 +12,7 @@ Network ACLs and Security Groups
 
 VPC Endpoints (for SSM, Secrets Manager, etc.)
 
-Compute Layer
+###Compute Layer
 
 EC2 Auto Scaling Group for app (optional)
 
@@ -22,13 +22,13 @@ ECR for container images
 
 Launch Template for EC2 (for .NET if needed)
 
-Database Layer
+###Database Layer
 
 Amazon RDS (SQL Server or PostgreSQL depending on .NET app)
 
 Secrets stored in Secrets Manager
 
-Application Layer
+##Application Layer
 
 ECS Services
 
@@ -38,7 +38,7 @@ CloudFront Distribution
 
 WAF for ALB/CloudFront
 
-Configuration and Monitoring
+###Configuration and Monitoring
 
 Systems Manager Parameter Store
 
@@ -48,6 +48,6 @@ CloudWatch Logs, Alarms
 
 EventBridge Rules (for notifications or automation)
 
-DNS
+##DNS
 
 Route 53 Hosted Zone and DNS records

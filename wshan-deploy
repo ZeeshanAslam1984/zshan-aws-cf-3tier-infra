@@ -1,0 +1,3 @@
+template-file-path: zshan-aws-cf-3tier-infra/networking /vpc.yaml
+parameters: {}
+tags: {}

@@ -1,4 +1,3 @@
 template-file-path: vpc.yaml
-tags: 
-    Name:'zeshan' 
-    Project:'zesh-3-teir-infra'
+ 
+   

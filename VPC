@@ -1,0 +1,4 @@
+template-file-path: >-
+  https://github.com/ZeeshanAslam1984/zshan-aws-cf-3tier-infra/blob/main/networking/vpc.yaml
+parameters: {}
+tags: {}

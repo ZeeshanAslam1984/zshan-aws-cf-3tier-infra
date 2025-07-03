@@ -1,0 +1,12 @@
+{
+  "StackName": "OnlyVPCStack",
+  "Region": "ap-southeast-2",
+  "TemplatePath": "vpc-only.yaml",
+  "Capabilities": ["CAPABILITY_NAMED_IAM"],
+  "Parameters": [
+    {
+      "ParameterKey": "VpcCIDR",
+      "ParameterValue": "10.0.0.0/16"
+    }
+  ]
+}
